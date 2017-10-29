@@ -1,0 +1,11 @@
+.table-container{
+    margin: 5px;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
+td {
+	text-align: left;	
+}

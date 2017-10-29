@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled 
+9a99dcea71218ac92261bd2a82101c92f2b81e8c refs/remotes/origin/add-new-category
+d3704b140f9801216d48f8f4875c50a6ed9a3459 refs/remotes/origin/master
+9e7eee1d67df632e71b61091db201785a706c2f5 refs/remotes/origin/package-cards

@@ -1,0 +1,7 @@
+.nav li{
+     display: block;
+    font-size: 20px;
+    color: blue;
+    padding:5px;
+    margin: 5px;
+}
