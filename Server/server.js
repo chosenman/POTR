@@ -21,8 +21,9 @@ app.use(bodyParser.json());
 var path = require("path");
 
 
+
 // static content
-app.use(express.static(path.join(__dirname, "../client/public")));
+app.use(express.static(path.join(__dirname, "../client/build")));
 // app.set('views', path.join(__dirname, '../client/frontend/public'));
 // app.set('views', path.join(__dirname, './views'));
 

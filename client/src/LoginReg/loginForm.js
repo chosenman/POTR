@@ -31,6 +31,7 @@ class LoginForm extends React.Component{
         }).then((response) => {
             console.log("Login promise invoked!")
             if(response.data.search){
+		e.preventDefault();
                 window.location.href ="/package"
             }
             this.setState({

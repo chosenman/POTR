@@ -14,10 +14,10 @@
     "react-scripts": "1.0.10"
   },
   "scripts": {
-    "start": "react-scripts start webpack-dev-server  --host 0.0.0.0",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:8000"
+  "proxy": "http://68.66.193.40:3000"
 }
