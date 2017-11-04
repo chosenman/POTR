@@ -136,5 +136,7 @@ module.exports = function(app) {
     app.get('/cart/bidder', function(req,res){res.send('<h1>Bidder Cart at Checkout</h1>')});
     /// DELETE THESE ROUTES AFTER BUILDING BIDDER SCREENS INTO REACT /////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////////////////////////////////
-
+		app.get('/*', function(req,res){
+		res.redirect('/')
+		});
 }  // end of module.exports
